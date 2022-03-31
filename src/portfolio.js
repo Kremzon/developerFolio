@@ -23,8 +23,9 @@ const greeting = {
   username: "Nadav Kremer",
   title: "Hi all, I'm Nadav",
   subTitle:
-    "An experienced software engineer with over 10 years of experience designing, building and maintaining highly available scalable systems. I am a leader, a team player, and a passionate learner always looking to improve and learn more. I am currently looking for a position as a game developer.",
-  resumeLink: "", // Set to empty to hide the button
+    "An experienced senior software engineer with over 10 years of experience. I am a leader, a team player, and a passionate learner always looking to conquer the next challenge and learn more. I am highly motivated to bring my skill set into the gaming industry. Having done some independent learning and a few projects, I am looking for a position as a game developer and looking to relocate to the UK.",
+  resumeLink:
+    "https://docs.google.com/document/d/19wRVRy0S12_eI71uF5xfI1Y8kq2aSNuU2WaZgIOheq8/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -134,7 +135,7 @@ const educationInfo = {
       duration: "2013 - 2016"
     },
     {
-      schoolName: "IDF School of Computer Proffesions",
+      schoolName: "IDF School of Computer Professions",
       logo: require("./assets/images/IDF.svg"),
       subHeader: "Software Developer",
       duration: "September 2011 - March 2012",
@@ -202,7 +203,7 @@ const workExperiences = {
       desc: "Developed from scratch and maintained an automation infrastructure using C# and Selenium",
       descBullets: [
         "Introduced and showcased the importance of the automation field to other team leaders and manager in the unit",
-        "Trained QA testers in arts of writing code.",
+        "Trained QA testers in the arts of writing code.",
         "Lead a Scrum team of 6 QA testers while working side by side with the development team."
       ]
     },
