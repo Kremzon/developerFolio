@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm Nadav",
   subTitle: "An experienced software engineer with over 10 years of experience designing, building and maintaining highly available scalable systems. I am a leader, a team player, and a passionate learner always looking to improve and learn more. I am currently looking to transition into the gaming industry.",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button // TODO:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -67,7 +67,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C#",
-      fontAwesomeClassname: "fab fa-code"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "Unity",
@@ -75,23 +75,35 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fab fa-dharmachakra"
+      fontAwesomeClassname: "fas fa-dharmachakra"
     },
     {
       skillName: "Kafka",
-      fontAwesomeClassname: "fab fa-server"
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fab fa-database"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "MongoDB",
-      fontAwesomeClassname: "fab fa-database"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "GCP",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "JavaScript",
@@ -107,21 +119,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "GameDev.tv",
+      logo: require("./assets/images/gamedevtv.jpg"),
+      subHeader: "Multiple Unity courses",
+      duration: "2022"
+    },
+    {
       schoolName: "The College of Management, Academic Studies",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/collegeOfManagement.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2013 - 2016"
     },
     {
       schoolName: "IDF School of Computer Proffesions",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/IDF.svg"),
       subHeader: "Software Developer",
       duration: "September 2011 - March 2012",
       desc: "Intense 6 months course covering everything from operating systems, algorithms, databases, frontend, backend and more"
     },
     {
       schoolName: "American International School Of Bucharest",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/AISB.jpeg"),
       subHeader: "High School student",
       duration: "2008 - 2010"
     }
@@ -131,19 +149,15 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
+    },
+    {
+      Stack: "Game Development", 
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -157,7 +171,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "OptimalQ",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/OptimalQ.jpg"),
       date: "June 2018 – Present",
       desc: "As the company's first employee I am responsible for all stages of the development lifecycle.",
       descBullets: [
@@ -169,7 +183,7 @@ const workExperiences = {
     {
       role: "Team Leader and Project Manager",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/IDF.svg"),
       date: "August 2016 – May 2018",
       desc: "Managing the maintenance of a legacy multi-server, multi-client system and developing new features",
       descBullets: [
@@ -180,7 +194,7 @@ const workExperiences = {
     {
       role: "Automation Team Leader",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/IDF.svg"),
       date: "December 2015 – August 2016",
       desc: "Developed from scratch and maintained an automation infrastructure using C# and Selenium",
       descBullets: [
@@ -192,7 +206,7 @@ const workExperiences = {
     {
       role: "Officer's Team Leader",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/IDF.svg"),
       date: "May 2015 – December 2015",
       desc: "Trained officer cadets in their final stages of officer's course",
       descBullets: [
@@ -202,7 +216,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/IDF.svg"),
       date: "March 2012 – November 2014",
       desc: "Designed and developed from scratch a cryptographic management information system",
       descBullets: [
@@ -218,20 +232,20 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Game Development Projects",
+  subtitle: "Games I've made as part of my journy to become a game developer",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Covid Fighter",
+      projectDesc: "Covid themed space shooter made with Unity. Code and design by me",
       footerLink: [
         {
           name: "Visit Website",
@@ -242,8 +256,19 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Lego Brick Breaker",
+      projectDesc: "Lego Brick Breaker game made with Unity. Code and design by me",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Save The Forest",
+      projectDesc: "Adventure game about saving the forest using various animal forms. Developed as part of a team in Global Game Jam 2022",
       footerLink: [
         {
           name: "Visit Website",
@@ -313,7 +338,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -356,7 +381,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -369,22 +394,21 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open for opportunities. Looking to rellocate to the UK",
+  email_address: "nadavbeker@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
