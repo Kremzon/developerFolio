@@ -8,7 +8,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -21,25 +21,22 @@ const illustration = {
 
 const greeting = {
   username: "Nadav Kremer",
-  title: "Hi all, I'm Nadav!",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  title: "Hi all, I'm Nadav",
+  subTitle: "An experienced software engineer with over 10 years of experience designing, building and maintaining highly available scalable systems. I am a leader, a team player, and a passionate learner always looking to improve and learn more. I am currently looking to transition into the gaming industry.",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button // TODO:
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://www.linkedin.com/in/nadav-kremer/",
+  gmail: "nadavbeker@gmail.com",
+  github: "https://github.com/Kremzon",
+  medium: "https://medium.com/@nadavbeker",
+  facebook: "https://www.facebook.com/nadavkr/",
+  stackoverflow: "https://stackoverflow.com/users/3600000/kremzon",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Highely motivated and passionate software engineer with experience in all stages of development",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design, develop, deploy, test and maintain all aspects of scalable and highly available systems"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡"), // TODO:
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ "
     )
   ],
 
@@ -65,56 +62,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fab fa-dharmachakra"
+    },
+    {
+      skillName: "Kafka",
+      fontAwesomeClassname: "fab fa-server"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fab fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +107,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "The College of Management, Academic Studies",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "2013 - 2016"
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "IDF School of Computer Proffesions",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Software Developer",
+      duration: "September 2011 - March 2012",
+      desc: "Intense 6 months course covering everything from operating systems, algorithms, databases, frontend, backend and more"
+    },
+    {
+      schoolName: "American International School Of Bucharest",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "High School student",
+      duration: "2008 - 2010"
     }
   ]
 };
@@ -175,28 +156,60 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
+      company: "OptimalQ",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "As the company's first employee I am responsible for all stages of the development lifecycle.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designing, developing, deploying and maintaining all aspects of scalable and highly available systems",
+        "Collaborating with our data science division on designing and implementing our data processing pipeline while also developing production grade ML infrastructure with automatic improvement processes.",
+        "Working in microservice architecture using python, utilizing Apache Kafka, MySQL, Redis and MongoDB (and more) running on Kubernetes on the cloud."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Team Leader and Project Manager",
+      company: "Israel Defense Forces",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "August 2016 – May 2018",
+      desc: "Managing the maintenance of a legacy multi-server, multi-client system and developing new features",
+      descBullets: [
+        "Balancing between the needs of managers, clients, users and customer support in a limited resources environment.",
+        "Leading a Scrum team of 3 developers of various levels"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Automation Team Leader",
+      company: "Israel Defense Forces",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "December 2015 – August 2016",
+      desc: "Developed from scratch and maintained an automation infrastructure using C# and Selenium",
+      descBullets: [
+        "Introduced and showcased the importance of the automation field to other team leaders and manager in the unit",
+        "Trained QA testers in arts of writing code.",
+        "Lead a Scrum team of 6 QA testers while working side by side with the development team."
+      ]
+    },
+    {
+      role: "Officer's Team Leader",
+      company: "Israel Defense Forces",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "May 2015 – December 2015",
+      desc: "Trained officer cadets in their final stages of officer's course",
+      descBullets: [
+        "Gave lectures, organized trips and exercises and conducted discussions about my own past experience and what their future roles as officers will hold"
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "Israel Defense Forces",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "March 2012 – November 2014",
+      desc: "Designed and developed from scratch a cryptographic management information system",
+      descBullets: [
+        "Involved in all stages of the development lifecycle. Led multiple projects within the team",
+        "Working as part of a scrum team of 5 developers",
+        "Used technologies such as C#, ASP.NET MVC, JQuery, MS SQL and more"
+      ]
     }
   ]
 };
@@ -206,7 +219,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
