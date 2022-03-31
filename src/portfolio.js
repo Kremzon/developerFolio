@@ -24,8 +24,7 @@ const greeting = {
   title: "Hi all, I'm Nadav",
   subTitle:
     "An experienced software engineer with over 10 years of experience designing, building and maintaining highly available scalable systems. I am a leader, a team player, and a passionate learner always looking to improve and learn more. I am currently looking for a position as a game developer.",
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,9 +49,15 @@ const skillsSection = {
   subTitle:
     "Highely motivated and passionate software engineer with experience in all stages of development",
   skills: [
-    emoji("⚡ Develop, deploy, test and maintain all aspects of scalable and highly available systems"),
-    emoji("⚡ Develop games in my free utilizing my many skills from years of coding"), 
-    emoji("⚡ Design and define solutions for complex architecture challenges and bring them to life")
+    emoji(
+      "⚡ Develop, deploy, test and maintain all aspects of scalable and highly available systems"
+    ),
+    emoji(
+      "⚡ Develop games in my free utilizing my many skills from years of coding"
+    ),
+    emoji(
+      "⚡ Design and define solutions for complex architecture challenges and bring them to life"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
