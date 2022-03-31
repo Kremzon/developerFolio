@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9f974d7de6a6987fa0e522dd962faef",
+    "revision": "9ff28b9796939c40d89d5affa75e5510",
     "url": "/index.html"
   },
   {
-    "revision": "7189db0ebe1068354301",
+    "revision": "ab7815b0afca863a5c38",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "b9acb65625412157b021",
+    "revision": "84f177ea99935f740319",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "4da4766034852a7bb50e",
+    "revision": "3c4be603637a9b9173f6",
     "url": "/static/css/main.ec950ca4.chunk.css"
   },
   {
-    "revision": "f312ca145a653ff182a6",
-    "url": "/static/js/2.e7c1dcd0.chunk.js"
+    "revision": "a8c27d4be0f412a82ce7",
+    "url": "/static/js/2.4bd325c9.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.e7c1dcd0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4bd325c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7189db0ebe1068354301",
-    "url": "/static/js/3.8a8b9b08.chunk.js"
+    "revision": "ab7815b0afca863a5c38",
+    "url": "/static/js/3.14e2efa5.chunk.js"
   },
   {
-    "revision": "b9acb65625412157b021",
-    "url": "/static/js/4.afc622f1.chunk.js"
+    "revision": "84f177ea99935f740319",
+    "url": "/static/js/4.80c5ac19.chunk.js"
   },
   {
-    "revision": "4da4766034852a7bb50e",
-    "url": "/static/js/main.3aa2841f.chunk.js"
+    "revision": "3c4be603637a9b9173f6",
+    "url": "/static/js/main.f5db63f9.chunk.js"
   },
   {
-    "revision": "026f22f1577472caab28",
-    "url": "/static/js/runtime-main.f3e1ed08.js"
+    "revision": "530e43b106dc335d945b",
+    "url": "/static/js/runtime-main.9a5639ce.js"
   },
   {
     "revision": "148bfa564b003e1178cca59716ee3fa8",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Agustina.21f233e1.woff"
   },
   {
+    "revision": "f4ccb9de8cc28e37c214b682767247d8",
+    "url": "/static/media/CovidFighter.f4ccb9de.png"
+  },
+  {
     "revision": "ea4fb4e8429581f73fd978b7d54cfe83",
     "url": "/static/media/IDF.ea4fb4e8.svg"
+  },
+  {
+    "revision": "00f30a87f81dc27ae330465149c600eb",
+    "url": "/static/media/LegoBrickBreaker.00f30a87.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
@@ -80,16 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
     "url": "/static/media/pwaLogo.ee62cb58.webp"
-  },
-  {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
