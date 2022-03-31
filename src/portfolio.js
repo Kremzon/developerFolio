@@ -22,9 +22,10 @@ const illustration = {
 const greeting = {
   username: "Nadav Kremer",
   title: "Hi all, I'm Nadav",
-  subTitle: "An experienced software engineer with over 10 years of experience designing, building and maintaining highly available scalable systems. I am a leader, a team player, and a passionate learner always looking to improve and learn more. I am currently looking to transition into the gaming industry.",
+  subTitle:
+    "An experienced software engineer with over 10 years of experience designing, building and maintaining highly available scalable systems. I am a leader, a team player, and a passionate learner always looking to improve and learn more. I am currently looking for a position as a game developer.",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button 
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,15 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Highely motivated and passionate software engineer with experience in all stages of development",
+  subTitle:
+    "Highely motivated and passionate software engineer with experience in all stages of development",
   skills: [
-    emoji(
-      "⚡ Design, develop, deploy, test and maintain all aspects of scalable and highly available systems"
-    ),
-    emoji("⚡"), // TODO:
-    emoji(
-      "⚡ "
-    )
+    emoji("⚡ Develop, deploy, test and maintain all aspects of scalable and highly available systems"),
+    emoji("⚡ Develop games in my free utilizing my many skills from years of coding"), 
+    emoji("⚡ Design and define solutions for complex architecture challenges and bring them to life")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -83,7 +81,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Redis",
-      fontAwesomeClassname: "fas fa-server"
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "SQL",
@@ -156,7 +154,7 @@ const techStack = {
       progressPercentage: "100%"
     },
     {
-      Stack: "Game Development", 
+      Stack: "Game Development",
       progressPercentage: "70%"
     }
   ],
@@ -243,9 +241,10 @@ const bigProjects = {
   subtitle: "Games I've made as part of my journy to become a game developer",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/CovidFighter.png"),
       projectName: "Covid Fighter",
-      projectDesc: "Covid themed space shooter made with Unity. Code and design by me",
+      projectDesc:
+        "Covid themed space shooter made with Unity. Code and design by me",
       footerLink: [
         {
           name: "Visit Website",
@@ -255,24 +254,26 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/LegoBrickBreaker.png"),
       projectName: "Lego Brick Breaker",
-      projectDesc: "Lego Brick Breaker game made with Unity. Code and design by me",
+      projectDesc:
+        "Lego Brick Breaker game made with Unity. Code and design by me",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Play in browser",
+          url: "https://sharemygame.com/@Kremzon/lego-brick-breaker"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/SaveTheForest.png"),
       projectName: "Save The Forest",
-      projectDesc: "Adventure game about saving the forest using various animal forms. Developed as part of a team in Global Game Jam 2022",
+      projectDesc:
+        "Adventure game about saving the forest using various animal forms. Developed as part of a team in Global Game Jam 2022",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://globalgamejam.org/2022/games/save-forest-2"
         }
       ]
     }
@@ -345,21 +346,13 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@nadavbeker/how-i-used-scriptable-objects-to-build-a-powerup-system-39ad82628f6a",
+      title: "How I used scriptable objects to build a powerup system",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "How to use Unity's ScriptableObject, and how I used them to make a powerup system for my space shooter game"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -399,8 +392,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Open for opportunities. Looking to rellocate to the UK",
+  subtitle: "Open for opportunities. Looking to rellocate to the UK",
   email_address: "nadavbeker@gmail.com"
 };
 
