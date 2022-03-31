@@ -23,7 +23,7 @@ const greeting = {
   username: "Nadav Kremer",
   title: "Hi all, I'm Nadav",
   subTitle:
-    "An experienced senior software engineer with over 10 years of experience. I am a leader, a team player, and a passionate learner always looking to conquer the next challenge and learn more. I am highly motivated to bring my skill set into the gaming industry. Having done some independent learning and a few projects, I am looking for a position as a game developer and looking to relocate to the UK.",
+    "A senior software engineer with over 10 years of experience. I am a leader, a team player, and a passionate learner always looking to conquer the next challenge and learn more. I am highly motivated to bring my skill set into the gaming industry. Having done some independent learning and a few projects, I am looking for a position as a game developer and looking to relocate to the UK.",
   resumeLink:
     "https://docs.google.com/document/d/19wRVRy0S12_eI71uF5xfI1Y8kq2aSNuU2WaZgIOheq8/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -54,7 +54,7 @@ const skillsSection = {
       "⚡ Develop, deploy, test and maintain all aspects of scalable and highly available systems"
     ),
     emoji(
-      "⚡ Develop games in my free utilizing my many skills from years of coding"
+      "⚡ Develop games in my free time utilizing my many skills from years of coding"
     ),
     emoji(
       "⚡ Design and define solutions for complex architecture challenges and bring them to life"
