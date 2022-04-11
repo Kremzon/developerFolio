@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2ccdae6652f8bcb1fe1db35328ea027",
+    "revision": "764bcebec0007af71ad1fd3d31c29621",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "96ea8c2356d4bc97bb88",
+    "revision": "ff10db9190128749c7f0",
     "url": "/static/css/main.ec950ca4.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.80c5ac19.chunk.js"
   },
   {
-    "revision": "96ea8c2356d4bc97bb88",
-    "url": "/static/js/main.f661e6e4.chunk.js"
+    "revision": "ff10db9190128749c7f0",
+    "url": "/static/js/main.494a7a46.chunk.js"
   },
   {
     "revision": "530e43b106dc335d945b",
@@ -74,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
-  },
-  {
-    "revision": "28b9d0f5b9d858833a5388bf4c4ecb4d",
-    "url": "/static/media/gamedevtv.28b9d0f5.jpg"
   },
   {
     "revision": "e79c639294c805688be731921368c8f8",
