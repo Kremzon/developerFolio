@@ -124,7 +124,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "GameDev.tv",
-      logo: require("./assets/images/gamedevtv.jpg"),
+      logo: require("./assets/images/gamedevtv.png"),
       subHeader: "Multiple Unity courses",
       duration: "2022"
     },
@@ -248,13 +248,13 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/CovidFighter.png"),
-      projectName: "Covid Fighter",
+      projectName: "Virus Fighter",
       projectDesc:
-        "Covid themed space shooter made with Unity. Code and design by me",
+        "Virus themed space shooter made with Unity. Code and design by me",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://kremzon.github.io/" // TODO:
+          name: "Play On Android",
+          url: "https://play.google.com/store/apps/details?id=com.BekerStudios.CovidFighter"
         }
         //  you can add extra buttons here.
       ]
@@ -275,7 +275,7 @@ const bigProjects = {
       image: require("./assets/images/SaveTheForest.png"),
       projectName: "Save The Forest",
       projectDesc:
-        "Adventure game about saving the forest using various animal forms. Developed as part of a team in Global Game Jam 2022",
+        "A 3D adventure game about saving the forest using various animal forms. Developed as part of a team in Global Game Jam 2022",
       footerLink: [
         {
           name: "Visit Website",
