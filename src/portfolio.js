@@ -74,6 +74,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-code"
     },
     {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
       skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
     },
