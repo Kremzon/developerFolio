@@ -24,10 +24,14 @@ const greeting = {
   title: "Hi all, I'm Nadav",
   // subTitle:
   //   "A senior software engineer with over 10 years of experience. I am a leader, a team player, and a passionate learner always looking to conquer the next challenge and learn more. I am highly motivated to bring my skill set into the gaming industry. Having done some independent learning and a few projects, I am looking for a position as a game developer and looking to relocate to the UK.",
-  subTitle:"Hi, I'm Nadav Kremer, I'm a Senior Software Engineer and Game Developer.",
-  subTitle2:"I develop games using Unity and Unreal. My goal is to recreate that magical feeling you get when you unlock a new mechanic, solve a complex puzzle, or just get to the end of a long immersive game.",
-  subTitle3:"In my 10+ years of experience as a software developer, I designed and built complex scalable systems, led teams and projects from conception to production, and trained programmers of different levels. Throughout my career, I used different languages, technologies, and architectures and I’m always looking to learn new things.",
-  subTitle4:"When I'm not coding or gaming you can find me singing Disney songs and baking cakes.",
+  subTitle:
+    "Hi, I'm Nadav Kremer, I'm a Senior Software Engineer and Game Developer.",
+  subTitle2:
+    "I develop games using Unity and Unreal. My goal is to recreate that magical feeling you get when you unlock a new mechanic, solve a complex puzzle, or just get to the end of a long immersive game.",
+  subTitle3:
+    "In my 10+ years of experience as a software developer, I designed and built complex scalable systems, led teams and projects from conception to production, and trained programmers of different levels. Throughout my career, I used different languages, technologies, and architectures and I'm always looking to learn new things.",
+  subTitle4:
+    "When I'm not coding or gaming you can find me singing Disney songs and baking cakes.",
   resumeLink:
     "https://drive.google.com/file/d/1Nssv1dC1b2UhlFhEpoC0ARVkzTb_zUlY/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
