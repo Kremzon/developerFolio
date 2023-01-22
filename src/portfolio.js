@@ -145,7 +145,7 @@ const educationInfo = {
     },
     {
       schoolName: "IDF School of Computer Professions",
-      logo: require("./assets/images/IDF.svg"),
+      logo: require("./assets/images/IDF.png"),
       subHeader: "Software Developer",
       duration: "September 2011 - March 2012",
       desc: "Intense 6 months course covering everything from operating systems, algorithms, databases, frontend, backend and more"
@@ -210,7 +210,7 @@ const workExperiences = {
     {
       role: "Team Leader and Project Manager",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/IDF.svg"),
+      companylogo: require("./assets/images/IDF.png"),
       date: "August 2016 – May 2018",
       desc: "Managing the maintenance of a legacy multi-server, multi-client system and developing new features",
       descBullets: [
@@ -221,7 +221,7 @@ const workExperiences = {
     {
       role: "Automation Team Leader",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/IDF.svg"),
+      companylogo: require("./assets/images/IDF.png"),
       date: "December 2015 – August 2016",
       desc: "Developed from scratch and maintained an automation infrastructure using C# and Selenium",
       descBullets: [
@@ -233,7 +233,7 @@ const workExperiences = {
     {
       role: "Officer's Team Leader",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/IDF.svg"),
+      companylogo: require("./assets/images/IDF.png"),
       date: "May 2015 – December 2015",
       desc: "Trained officer cadets in their final stages of officer's course",
       descBullets: [
@@ -243,7 +243,7 @@ const workExperiences = {
     {
       role: "Software Developer",
       company: "Israel Defense Forces",
-      companylogo: require("./assets/images/IDF.svg"),
+      companylogo: require("./assets/images/IDF.png"),
       date: "March 2012 – November 2014",
       desc: "Designed and developed from scratch a cryptographic management information system",
       descBullets: [
