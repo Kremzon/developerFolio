@@ -22,10 +22,7 @@ const illustration = {
 const greeting = {
   username: "Nadav Kremer",
   title: "Hi all, I'm Nadav",
-  // subTitle:
-  //   "A senior software engineer with over 10 years of experience. I am a leader, a team player, and a passionate learner always looking to conquer the next challenge and learn more. I am highly motivated to bring my skill set into the gaming industry. Having done some independent learning and a few projects, I am looking for a position as a game developer and looking to relocate to the UK.",
-  subTitle:
-    "Hi, I'm Nadav Kremer, I'm a Senior Software Engineer and Game Developer.",
+  subTitle: "Hi, I'm Nadav Kremer, I'm a Tech Lead and Game Developer.",
   subTitle2:
     "I develop games using Unity and Unreal. My goal is to recreate that magical feeling you get when you unlock a new mechanic, solve a complex puzzle, or just get to the end of a long immersive game.",
   subTitle3:
@@ -137,7 +134,7 @@ const educationInfo = {
     {
       schoolName: "GameDev.tv",
       logo: require("./assets/images/gamedevtv.png"),
-      subHeader: "Multiple Unity courses",
+      subHeader: "Multiple Unity and Unreal courses",
       duration: "2022"
     },
     {
@@ -185,10 +182,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Tech Lead",
+      company: "Finonex",
+      companySubTitle: "(Acquired OptimalQ)",
+      companylogo: require("./assets/images/Finonex.jpg"),
+      date: "May 2022 - Present",
+      desc: "As a tech lead in the AI department, I am responsible for designing and developing AI systems for different departments and products at the company.",
+      descBullets: [
+        "Built a system to optimize and automate our marketing division's entire work process. Utilizing Airflow, managed to reduce human hours and mistakes while also improving the company’s value from our marketing.",
+        "Building a system to optimize the company's call center's workflows. From deciding which lead to call all the way to what the representative should say and providing him with recommendations based on the lead’s data.",
+        "Initiating and implementing change in our company's work culture and standards to create a unified workflow for all the company's teams.",
+        "Working with python and .Net core, utilizing Airflow, Apache Kafka, MySQL, Redis, MongoDB, and more."
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
       company: "OptimalQ",
       companylogo: require("./assets/images/OptimalQ.jpg"),
-      date: "June 2018 – Present",
+      date: "June 2018 – May 2022",
       desc: "As the company's first employee I am responsible for all stages of the development lifecycle.",
       descBullets: [
         "Designing, developing, deploying and maintaining all aspects of scalable and highly available systems",
